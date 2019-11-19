@@ -1,0 +1,238 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+input {
+  border: none;
+  outline: none;
+}
+.wrap {
+  width: 100%;
+  background: url(../images/bj.jpg) no-repeat right;
+  background-size: 100%;
+}
+.wrap .navTop-wrap {
+  width: 100%;
+  height: 27px;
+  background: #898989;
+}
+.wrap .navTop-wrap .nav-top {
+  width: 70%;
+  height: 27px;
+  line-height: 27px;
+  margin: 0 auto;
+  font-size: 12px;
+  color: #ffffff;
+}
+.wrap .navTop-wrap .nav-top .navTop-left {
+  float: left;
+}
+.wrap .navTop-wrap .nav-top .navTop-left span {
+  float: right;
+  width: 21px;
+  height: 19px;
+  display: block;
+  margin: 5px 0 0 5px;
+}
+.wrap .navTop-wrap .nav-top .navTop-left span:nth-child(1) {
+  background: url(../images/jlt.png) no-repeat;
+  background-position: -25px -3px;
+}
+.wrap .navTop-wrap .nav-top .navTop-left span:nth-child(2) {
+  background: url(../images/jlt.png) no-repeat;
+  background-position: 0px -3px;
+}
+.wrap .navTop-wrap .nav-top .navTop-right {
+  float: right;
+  width: 70px;
+  height: 15px;
+  margin: 5px 25px 0 0;
+  background: url(../images/jlt.png) no-repeat;
+  background-position: 1px -30px;
+}
+.wrap .main-wrap {
+  width: 100%;
+}
+.wrap .main-wrap .main {
+  width: 70%;
+  margin: 0 auto;
+}
+.wrap .main-wrap .main .header {
+  height: 93px;
+}
+.wrap .main-wrap .main .header .logo {
+  float: left;
+  width: 186px;
+  height: 70px;
+  margin-top: 20px;
+}
+.wrap .main-wrap .main .header .nav {
+  float: right;
+  width: 920px;
+}
+.wrap .main-wrap .main .header .nav ul li {
+  float: left;
+  line-height: 67px;
+  margin: 0 26px;
+  font-size: 19px;
+  font-weight: bold;
+}
+.wrap .main-wrap .main .header .nav ul li a {
+  color: #231815;
+}
+.wrap .main-wrap .main .header .nav ul li:nth-child(2) a {
+  width: 92px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid #0097ba;
+  color: #2293b4;
+}
+.wrap .main-wrap .main .header .nav ul .three {
+  position: absolute;
+  top: 74px;
+  left: 1070px;
+  display: block;
+  width: 20px;
+  height: 20px;
+  background: url(../images/three.jpg) no-repeat;
+}
+.wrap .main-wrap .main .login {
+  width: 463px;
+  height: 507px;
+  margin: 120px auto 0 auto;
+  background: url(../images/login.png) no-repeat;
+  background-position: -21px -16px;
+}
+.wrap .main-wrap .main .login h2 {
+  font-size: 25px;
+  text-align: center;
+  padding: 37px 0 0 0;
+}
+.wrap .main-wrap .main .login form {
+  width: 421px;
+  height: 182px;
+  margin: 0 auto;
+}
+.wrap .main-wrap .main .login form div {
+  width: 418px;
+  height: 47px;
+  margin-bottom: 18px;
+  border: 1px solid #98999b;
+}
+.wrap .main-wrap .main .login form div span {
+  float: left;
+  display: block;
+  width: 17px;
+  height: 18px;
+  margin: 14px 0 0 11px;
+  background: url(../images/jlt.png) no-repeat;
+  background-position: -3px -53px;
+}
+.wrap .main-wrap .main .login form div input {
+  float: left;
+  margin: 15px 0 0 16px;
+  font-size: 14px;
+}
+.wrap .main-wrap .main .login form div input[type=text]::placeholder {
+  color: #e5e6e6;
+}
+.wrap .main-wrap .main .login form button {
+  width: 418px;
+  height: 45px;
+  font-size: 16px;
+  background: #008aaf;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  border-radius: 9px;
+}
+.wrap .main-wrap .main .login .find {
+  float: right;
+  width: 54px;
+  height: 17px;
+  margin: 25px 25px 0 0;
+  font-size: 12px;
+  text-align: center;
+  padding-bottom: 2px;
+  border-bottom: 1px solid #7f8081;
+}
+.wrap .main-wrap .main .login .find a {
+  color: #000000;
+}
+.wrap .main-wrap .main .login .line {
+  float: left;
+  width: 417px;
+  height: 2px;
+  margin: 22px 0 0 24px;
+  background: #aaaeae;
+}
+.wrap .main-wrap .main .login .sign {
+  float: left;
+  width: 100%;
+  margin: 22px 0 0 0;
+  font-size: 14px;
+  text-align: center;
+}
+.wrap .main-wrap .main .login .sign span {
+  display: inline-block;
+  margin-left: 5px;
+  width: 60px;
+  border-bottom: 1px solid #626262;
+}
+.wrap .main-wrap .main .login .text {
+  float: left;
+  width: 415px;
+  margin: 27px 0 0 24px;
+  font-size: 12px;
+  line-height: 22px;
+}
+.wrap .main-wrap .main .login .help {
+  float: right;
+  width: 74px;
+  height: 16px;
+  margin-top: 15px;
+}
+.wrap .main-wrap .main .login .help span {
+  display: block;
+  float: left;
+  width: 17px;
+  height: 17px;
+  margin: 3px 3px 0 0;
+  background: url(../images/jlt.png) no-repeat;
+  background-position: -4px -81px;
+}
+.wrap .foot {
+  width: 100%;
+  height: 54px;
+  line-height: 54px;
+  margin-top: 210px;
+  background: #54565a;
+}
+.wrap .foot .foot-nav {
+  width: 70%;
+  margin: 0 auto;
+  color: #ffffff;
+}
+.wrap .foot .foot-nav .foot-left {
+  float: left;
+}
+.wrap .foot .foot-nav .foot-center {
+  float: left;
+  margin-left: 475px;
+}
+.wrap .foot .foot-nav .foot-right {
+  float: right;
+}
+.wrap .foot .foot-nav .foot-right span {
+  display: block;
+  width: 31px;
+  height: 30px;
+  margin-top: 14px;
+  background: url(../images/jlt.png) no-repeat;
+  background-position: -32px -80px;
+}
